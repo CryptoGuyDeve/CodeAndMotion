@@ -94,48 +94,53 @@ function Portfolio() {
               <div className="grid grid-cols-auto md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[
                   {
-                    title: "CLIENT WORK 1",
-                    image: "/portfolio/3dreelthumbnail.png",
-                    alt: "Branding & Logo Design"
-                  },
-                  {
-                    title: "HatAke Logo",
-                    image: "/portfolio/profilepicture.jpg",
-                    alt: "Social Media Graphics"
-                  },
-                  {
-                    title: "Ragon Solution Logo",
-                    image: "/portfolio/ragonlogo.png",
-                    alt: "Social Media Graphics"
-                  },
-                  {
-                    title: "Ragon Solution Banner",
-                    image: "/portfolio/ragonsolutionbanner.png",
-                    alt: "Social Media Graphics"
-                  },
-                  {
-                    title: "Valorant Smooth Montage Thumbnail",
-                    image: "/portfolio/Thumbnail12.png",
-                    alt: "Social Media Graphics"
-                  },
-                  {
-                    title: "Secura Clan Snoofz Thumbnail",
-                    image: "/portfolio/Thumbnail1.jpg",
-                    alt: "Social Media Graphics"
-                  },
-                  {
-                    title: "Iman Short Form Content Thumbnail",
+                    title: "CLIENT WORK #1",
                     image: "/portfolio/Thumbnail3.png",
                     alt: "Social Media Graphics"
                   },
                   {
-                    title: "Smooth Valorant Montage Thumbnail",
+                    title: "CLIENT WORK #2",
+                    image: "/portfolio/profilepicture.jpg",
+                    alt: "Social Media Graphics"
+                  },
+                  {
+                    title: "CLIENT WORK #3",
+                    image: "/portfolio/ragonlogo.png",
+                    alt: "Social Media Graphics"
+                  },
+                  {
+                    title: "CLIENT WORK #4",
+                    image: "/portfolio/Thumbnail1.jpg",
+                    alt: "Social Media Graphics"
+                  },
+                  {
+                    title: "CLIENT WORK #5",
+                    image: "/portfolio/Thumbnail12.png",
+                    alt: "Social Media Graphics"
+                  },
+                  {
+                    title: "CLIENT WORK #6",
+                    image: "/portfolio/ragonsolutionbanner.png",
+                    alt: "Social Media Graphics"
+                  },
+                  {
+                    title: "CLIENT WORK #7",
+                    image: "/portfolio/3dreelthumbnail.png",
+                    alt: "Branding & Logo Design"
+                  },
+                  {
+                    title: "CLIENT WORK #8",
                     image: "/portfolio/valorantmontagethumbnail.png",
                     alt: "Social Media Graphics"
                   },
                   {
-                    title: "Professional Valorant Montages Thumbnail",
+                    title: "CLIENT WORK #9",
                     image: "/portfolio/valothumbnail.png",
+                    alt: "Social Media Graphics"
+                  },
+                  {
+                    title: "CLIENT WORK #10",
+                    image: "/portfolio/fiverthumbnail.jpg",
                     alt: "Social Media Graphics"
                   },
                 ].map((project, index) => (
