@@ -89,73 +89,64 @@ function Portfolio() {
               </div>
             </section>
 
-            {/* Graphic Design Portfolio */}
             <section className="mt-10 w-full max-w-6xl px-4">
               <h2 className="text-3xl font-bold text-center mb-6">Graphic Designing Projects</h2>
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-auto md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[
                   {
-                    title: "3D Instagram Reel Thumbnail",
-                    // description: "Crafted unique logos and brand identities for multiple clients, enhancing brand recognition.",
+                    title: "CLIENT WORK 1",
                     image: "/portfolio/3dreelthumbnail.png",
                     alt: "Branding & Logo Design"
                   },
                   {
                     title: "HatAke Logo",
-                    // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
                     image: "/portfolio/profilepicture.jpg",
                     alt: "Social Media Graphics"
                   },
                   {
                     title: "Ragon Solution Logo",
-                    // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
                     image: "/portfolio/ragonlogo.png",
                     alt: "Social Media Graphics"
                   },
                   {
                     title: "Ragon Solution Banner",
-                    // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
                     image: "/portfolio/ragonsolutionbanner.png",
                     alt: "Social Media Graphics"
                   },
                   {
                     title: "Valorant Smooth Montage Thumbnail",
-                    // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
                     image: "/portfolio/Thumbnail12.png",
                     alt: "Social Media Graphics"
                   },
                   {
                     title: "Secura Clan Snoofz Thumbnail",
-                    // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
                     image: "/portfolio/Thumbnail1.jpg",
                     alt: "Social Media Graphics"
                   },
                   {
-                    title: "Iman Short From Content Thumbnail",
-                    // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
+                    title: "Iman Short Form Content Thumbnail",
                     image: "/portfolio/Thumbnail3.png",
                     alt: "Social Media Graphics"
                   },
                   {
                     title: "Smooth Valorant Montage Thumbnail",
-                    // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
                     image: "/portfolio/valorantmontagethumbnail.png",
                     alt: "Social Media Graphics"
                   },
                   {
                     title: "Professional Valorant Montages Thumbnail",
-                    // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
                     image: "/portfolio/valothumbnail.png",
                     alt: "Social Media Graphics"
                   },
                 ].map((project, index) => (
-                  <div key={index} className="bg-gray-900 p-6 rounded-lg shadow-lg">
-                    <Image src={project.image} alt={project.alt} width={600} height={400} className="rounded-md mb-4" />
-                    <h3 className="text-xl font-semibold">{project.title}</h3>
+                  <div key={index} className="bg-gray-900 p-4 rounded-lg shadow-lg flex flex-col items-center">
+                    <Image src={project.image} alt={project.alt} width={400} height={300} className="rounded-md mb-3 object-cover" />
+                    <h3 className="text-lg font-semibold text-center">{project.title}</h3>
                   </div>
                 ))}
               </div>
             </section>
+
 
             {/* Video Editing Portfolio */}
             <section className="mt-10 w-full max-w-6xl px-4">
