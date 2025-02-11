@@ -10,8 +10,8 @@ import Image from 'next/image';
 
 function Portfolio() {
   return (
-      <div className="relative flex flex-col items-center justify-center w-full py-20">
-        <Navbar />
+    <div className="relative flex flex-col items-center justify-center w-full py-20">
+      <Navbar />
       <div className="absolute flex lg:hidden size-40 rounded-full bg-blue-500 blur-[10rem] top-0 left-1/2 -translate-x-1/2 -z-10"></div>
       <div className="flex flex-col items-center justify-center gap-y-8 relative">
         <h1>
@@ -52,144 +52,149 @@ function Portfolio() {
 
             {/* Web Development Portfolio */}
             <section className="mt-10 w-full max-w-6xl px-4">
-            <h2 className="text-3xl font-bold text-center mb-6">Web Development Projects</h2>
-            <div className="grid md:grid-cols-2 gap-6">
+              <h2 className="text-3xl font-bold text-center mb-6">Web Development Projects</h2>
+              <div className="grid md:grid-cols-2 gap-6">
                 {[
-                {
+                  {
                     title: "Fashion Website",
                     description: "A modern fashion items listing site built with React.js and optimized for conversions.",
                     image: "/images/website1.jpg",
                     alt: "Fashion Website"
-                },
-                {
+                  },
+                  {
                     title: "Design Lab",
                     description: "A dynamic site for a designing company with an interactive portfolio and contact forms.",
                     image: "/images/website2.png",
                     alt: "Design Lab"
-                },
-                {
+                  },
+                  {
                     title: "UI/UX Designer Portfolio",
                     description: "A dynamic site for a person with an interactive portfolio and contact forms.",
                     image: "/images/website3.jpg",
                     alt: "UI/UX Designer Portfolio"
-                },
-                {
+                  },
+                  {
                     title: "Web Dev Tool Web",
                     description: "A dynamic site for a web development tool with an interactive interface.",
                     image: "/images/website4.png",
                     alt: "Web Dev Tool Web"
-                }
+                  }
                 ].map((project, index) => (
-                <div key={index} className="bg-gray-900 p-6 rounded-lg shadow-lg">
+                  <div key={index} className="bg-gray-900 p-6 rounded-lg shadow-lg">
                     <Image src={project.image} alt={project.alt} width={600} height={400} className="rounded-md mb-4" />
                     <h3 className="text-xl font-semibold">{project.title}</h3>
                     <p className="text-gray-400">{project.description}</p>
-                </div>
+                  </div>
                 ))}
-            </div>
+              </div>
             </section>
 
             {/* Graphic Design Portfolio */}
             <section className="mt-10 w-full max-w-6xl px-4">
-            <h2 className="text-3xl font-bold text-center mb-6">Graphic Designing Projects</h2>
-            <div className="grid md:grid-cols-2 gap-6">
+              <h2 className="text-3xl font-bold text-center mb-6">Graphic Designing Projects</h2>
+              <div className="grid md:grid-cols-2 gap-6">
                 {[
-                {
+                  {
                     title: "3D Instagram Reel Thumbnail",
                     // description: "Crafted unique logos and brand identities for multiple clients, enhancing brand recognition.",
                     image: "/portfolio/3dreelthumbnail.png",
                     alt: "Branding & Logo Design"
-                },
-                {
+                  },
+                  {
                     title: "HatAke Logo",
                     // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
                     image: "/portfolio/profilepicture.jpg",
                     alt: "Social Media Graphics"
-                },
-                {
-                  title: "Ragon Solution Logo",
-                  // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
-                  image: "/portfolio/ragonlogo.png",
-                  alt: "Social Media Graphics"
-                },
-                {
-                  title: "Ragon Solution Banner",
-                  // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
-                  image: "/portfolio/ragonsolutionbanner.png",
-                  alt: "Social Media Graphics"
-                },
-                {
-                  title: "Valorant Smooth Montage Thumbnail",
-                  // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
-                  image: "/portfolio/Thumbnail12.png",
-                  alt: "Social Media Graphics"
-                },
-                {
-                  title: "Secura Clan Snoofz Thumbnail",
-                  // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
-                  image: "/portfolio/Thumbnail1.jpg",
-                  alt: "Social Media Graphics"
-                },
-                {
-                  title: "Iman Short From Content Thumbnail",
-                  // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
-                  image: "/portfolio/Thumbnail3.png",
-                  alt: "Social Media Graphics"
-                },
-                {
-                  title: "Smooth Valorant Montage Thumbnail",
-                  // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
-                  image: "/portfolio/valorantmontagethumbnail.png",
-                  alt: "Social Media Graphics"
-                },
-                {
-                  title: "Professional Valorant Montages Thumbnail",
-                  // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
-                  image: "/portfolio/valothumbnail.png",
-                  alt: "Social Media Graphics"
-                },
+                  },
+                  {
+                    title: "Ragon Solution Logo",
+                    // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
+                    image: "/portfolio/ragonlogo.png",
+                    alt: "Social Media Graphics"
+                  },
+                  {
+                    title: "Ragon Solution Banner",
+                    // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
+                    image: "/portfolio/ragonsolutionbanner.png",
+                    alt: "Social Media Graphics"
+                  },
+                  {
+                    title: "Valorant Smooth Montage Thumbnail",
+                    // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
+                    image: "/portfolio/Thumbnail12.png",
+                    alt: "Social Media Graphics"
+                  },
+                  {
+                    title: "Secura Clan Snoofz Thumbnail",
+                    // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
+                    image: "/portfolio/Thumbnail1.jpg",
+                    alt: "Social Media Graphics"
+                  },
+                  {
+                    title: "Iman Short From Content Thumbnail",
+                    // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
+                    image: "/portfolio/Thumbnail3.png",
+                    alt: "Social Media Graphics"
+                  },
+                  {
+                    title: "Smooth Valorant Montage Thumbnail",
+                    // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
+                    image: "/portfolio/valorantmontagethumbnail.png",
+                    alt: "Social Media Graphics"
+                  },
+                  {
+                    title: "Professional Valorant Montages Thumbnail",
+                    // description: "Designed engaging Instagram and Facebook posts to boost audience engagement.",
+                    image: "/portfolio/valothumbnail.png",
+                    alt: "Social Media Graphics"
+                  },
                 ].map((project, index) => (
-                <div key={index} className="bg-gray-900 p-6 rounded-lg shadow-lg">
+                  <div key={index} className="bg-gray-900 p-6 rounded-lg shadow-lg">
                     <Image src={project.image} alt={project.alt} width={600} height={400} className="rounded-md mb-4" />
                     <h3 className="text-xl font-semibold">{project.title}</h3>
-                </div>
+                  </div>
                 ))}
-            </div>
+              </div>
             </section>
 
             {/* Video Editing Portfolio */}
             <section className="mt-10 w-full max-w-6xl px-4">
-            <h2 className="text-3xl font-bold text-center mb-6">Video Editing Projects</h2>
-            <div className="grid md:grid-cols-2 gap-6">
+              <h2 className="text-3xl font-bold text-center mb-6">Video Editing Projects</h2>
+              <div className="grid md:grid-cols-2 gap-6">
                 {[
-                {
-                    // title: "HATAKE INTRO",
-                    video: "/video/video1.mp4"
-                },
-                {
-                    // title: "📽️ Promotional Videos",
-                    video: "/video/video2.mp4"
-                },
-                {
-                    // title: "HATAKE INTRO",
-                    video: "/video/video3.mp4"
-                },
-                {
-                    // title: "HATAKE INTRO",
-                    video: "/video/video4.mp4"
-                },
-                {
-                    // title: "HATAKE INTRO",
-                    video: "/video/video5.mp4"
-                },
+                  {
+                    title: "HATAKE INTRO",
+                    video: "https://www.youtube.com/embed/0TTHp3Hy7QA"
+                  },
+                  {
+                    title: "📽️ Promotional Videos",
+                    video: "https://www.youtube.com/embed/xVJxNeTuRkY"
+                  },
+                  {
+                    title: "HATAKE INTRO",
+                    video: "https://www.youtube.com/embed/3EPKy5xo7z8"
+                  },
+                  {
+                    title: "HATAKE INTRO",
+                    video: "https://www.youtube.com/embed/IroxdV_QJDE"
+                  },
+                  {
+                    title: "HATAKE INTRO",
+                    video: "https://www.youtube.com/embed/_qlBj-nf_vM"
+                  }
                 ].map((project, index) => (
-                <div key={index} className="bg-gray-900 p-6 rounded-lg shadow-lg">
-                    <video controls className="rounded-md mb-4">
-                    <source src={project.video} type="video/mp4" />
-                    </video>
-                </div>
+                  <div key={index} className="bg-gray-900 p-6 rounded-lg shadow-lg">
+                    <h3 className="text-lg font-semibold mb-2 text-white">{project.title}</h3>
+                    <iframe
+                      className="w-full h-56 rounded-md"
+                      src={project.video}
+                      title={project.title}
+                      frameBorder="0"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
                 ))}
-            </div>
+              </div>
             </section>
 
           </div>
