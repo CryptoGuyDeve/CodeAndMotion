@@ -56,25 +56,25 @@ function Portfolio() {
               <div className="grid md:grid-cols-2 gap-6">
                 {[
                   {
-                    title: "Fashion Website",
+                    title: "CLIENT #1",
                     description: "A modern fashion items listing site built with React.js and optimized for conversions.",
                     image: "/images/website1.jpg",
                     alt: "Fashion Website"
                   },
                   {
-                    title: "Design Lab",
+                    title: "CLIENT #2",
                     description: "A dynamic site for a designing company with an interactive portfolio and contact forms.",
                     image: "/images/website2.png",
                     alt: "Design Lab"
                   },
                   {
-                    title: "UI/UX Designer Portfolio",
+                    title: "CLIENT #3",
                     description: "A dynamic site for a person with an interactive portfolio and contact forms.",
                     image: "/images/website3.jpg",
                     alt: "UI/UX Designer Portfolio"
                   },
                   {
-                    title: "Web Dev Tool Web",
+                    title: "CLIENT #4",
                     description: "A dynamic site for a web development tool with an interactive interface.",
                     image: "/images/website4.png",
                     alt: "Web Dev Tool Web"
@@ -94,52 +94,52 @@ function Portfolio() {
               <div className="grid grid-cols-auto md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[
                   {
-                    title: "CLIENT WORK #1",
+                    title: "CLIENT #1",
                     image: "/portfolio/Thumbnail3.png",
                     alt: "Social Media Graphics"
                   },
                   {
-                    title: "CLIENT WORK #2",
+                    title: "CLIENT #2",
                     image: "/portfolio/profilepicture.jpg",
                     alt: "Social Media Graphics"
                   },
                   {
-                    title: "CLIENT WORK #3",
+                    title: "CLIENT #3",
                     image: "/portfolio/ragonlogo.png",
                     alt: "Social Media Graphics"
                   },
                   {
-                    title: "CLIENT WORK #4",
+                    title: "CLIENT #4",
                     image: "/portfolio/Thumbnail1.jpg",
                     alt: "Social Media Graphics"
                   },
                   {
-                    title: "CLIENT WORK #5",
+                    title: "CLIENT #5",
                     image: "/portfolio/Thumbnail12.png",
                     alt: "Social Media Graphics"
                   },
                   {
-                    title: "CLIENT WORK #6",
+                    title: "CLIENT #6",
                     image: "/portfolio/ragonsolutionbanner.png",
                     alt: "Social Media Graphics"
                   },
                   {
-                    title: "CLIENT WORK #7",
+                    title: "CLIENT #7",
                     image: "/portfolio/3dreelthumbnail.png",
                     alt: "Branding & Logo Design"
                   },
                   {
-                    title: "CLIENT WORK #8",
+                    title: "CLIENT #8",
                     image: "/portfolio/valorantmontagethumbnail.png",
                     alt: "Social Media Graphics"
                   },
                   {
-                    title: "CLIENT WORK #9",
+                    title: "CLIENT #9",
                     image: "/portfolio/valothumbnail.png",
                     alt: "Social Media Graphics"
                   },
                   {
-                    title: "CLIENT WORK #10",
+                    title: "CLIENT #10",
                     image: "/portfolio/fiverthumbnail.jpg",
                     alt: "Social Media Graphics"
                   },
@@ -159,23 +159,23 @@ function Portfolio() {
               <div className="grid md:grid-cols-2 gap-6">
                 {[
                   {
-                    title: "HATAKE INTRO",
+                    title: "CLIENT #1",
                     video: "https://www.youtube.com/embed/0TTHp3Hy7QA"
                   },
                   {
-                    title: "📽️ Promotional Videos",
+                    title: "CLIENT #2",
                     video: "https://www.youtube.com/embed/xVJxNeTuRkY"
                   },
                   {
-                    title: "HATAKE INTRO",
+                    title: "CLIENT #3",
                     video: "https://www.youtube.com/embed/3EPKy5xo7z8"
                   },
                   {
-                    title: "HATAKE INTRO",
+                    title: "CLIENT #4",
                     video: "https://www.youtube.com/embed/IroxdV_QJDE"
                   },
                   {
-                    title: "HATAKE INTRO",
+                    title: "CLIENT #5",
                     video: "https://www.youtube.com/embed/_qlBj-nf_vM"
                   }
                 ].map((project, index) => (
