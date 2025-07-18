@@ -28,6 +28,11 @@ const Navbar = () => {
                                     </Link>
                                 </li>
                             ))}
+                            <li>
+                                <Link href="/team" className="text-sm font-medium -1 link">
+                                    Team
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 
