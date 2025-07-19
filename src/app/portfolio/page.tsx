@@ -78,21 +78,15 @@ const designProjects = [
   { title: "Social Media Graphics 1", image: "/portfolio/Thumbnail3.png", alt: "Social Media Graphics" },
   { title: "Profile Picture", image: "/portfolio/profilepicture.jpg", alt: "Profile Picture" },
   { title: "Ragon Logo", image: "/portfolio/ragonlogo.png", alt: "Logo Design" },
-  { title: "Thumbnail 1", image: "/portfolio/Thumbnail1.jpg", alt: "Thumbnail 1" },
-  { title: "Thumbnail 12", image: "/portfolio/Thumbnail12.png", alt: "Thumbnail 12" },
+  { title: "Thumbnail 1", image: "/portfolio/thumbnail1.jpg", alt: "Thumbnail 1" },
+  { title: "Thumbnail 12", image: "/portfolio/Thumbnail2.png", alt: "Thumbnail 12" },
   { title: "Ragon Solution Banner", image: "/portfolio/ragonsolutionbanner.png", alt: "Banner Design" },
   { title: "3D Reel Thumbnail", image: "/portfolio/3dreelthumbnail.png", alt: "3D Reel Thumbnail" },
   { title: "Valorant Montage Thumbnail", image: "/portfolio/valorantmontagethumbnail.png", alt: "Valorant Montage Thumbnail" },
   { title: "Valo Thumbnail", image: "/portfolio/valothumbnail.png", alt: "Valo Thumbnail" },
-  { title: "Fiver Thumbnail", image: "/portfolio/fiverthumbnail.jpg", alt: "Fiver Thumbnail" },
 ];
 
 const videoProjects = [
-  { title: "Montage 1", video: "https://www.youtube.com/embed/0TTHp3Hy7QA" },
-  { title: "Montage 2", video: "https://www.youtube.com/embed/xVJxNeTuRkY" },
-  { title: "Montage 3", video: "https://www.youtube.com/embed/3EPKy5xo7z8" },
-  { title: "Montage 4", video: "https://www.youtube.com/embed/IroxdV_QJDE" },
-  { title: "Montage 5", video: "https://www.youtube.com/embed/_qlBj-nf_vM" },
   { title: "Short: Fast Cuts 1", video: "https://www.youtube.com/embed/8758zt_f1dI" },
   { title: "Short: Fast Cuts 2", video: "https://www.youtube.com/embed/QfMcP8JV6-A" },
   { title: "Short: Fast Cuts 3", video: "https://www.youtube.com/embed/0miuCkbWXrw" },
