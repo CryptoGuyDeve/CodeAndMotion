@@ -43,6 +43,14 @@ const useTypewriter = (words: string[], speed = 80, pause = 1200) => {
 // --- Project Data ---
 const webProjects = [
   {
+    title: "Sword.lol - Bio Link Platform",
+    description: "A modern, lightning-fast bio link and file hosting platform for creators. Features custom bio links, analytics, premium layouts, and secure file hosting. Built for performance and scalability.",
+    image: "/images/swardlol.PNG",
+    alt: "Sword.lol Bio Link Platform",
+    tags: ["Next.js", "Fullstack", "Link in Bio", "SaaS", "Analytics"],
+    link: "https://www.sward.lol/"
+  },
+  {
     title: "Fashion Store",
     description: "A modern fashion items listing site built with React.js and optimized for conversions.",
     image: "/images/website1.jpg",
@@ -77,15 +85,13 @@ const webProjects = [
 ];
 
 const designProjects = [
-  { title: "Social Media Graphics 1", image: "/portfolio/Thumbnail3.png", alt: "Social Media Graphics" },
-  { title: "Profile Picture", image: "/portfolio/profilepicture.jpg", alt: "Profile Picture" },
-  { title: "Ragon Logo", image: "/portfolio/ragonlogo.png", alt: "Logo Design" },
-  { title: "Thumbnail 1", image: "/portfolio/thumbnail1.jpg", alt: "Thumbnail 1" },
-  { title: "Thumbnail 12", image: "/portfolio/Thumbnail2.png", alt: "Thumbnail 12" },
-  { title: "Ragon Solution Banner", image: "/portfolio/ragonsolutionbanner.png", alt: "Banner Design" },
-  { title: "3D Reel Thumbnail", image: "/portfolio/3dreelthumbnail.png", alt: "3D Reel Thumbnail" },
-  { title: "Valorant Montage Thumbnail", image: "/portfolio/valorantmontagethumbnail.png", alt: "Valorant Montage Thumbnail" },
-  { title: "Valo Thumbnail", image: "/portfolio/valothumbnail.png", alt: "Valo Thumbnail" },
+  { title: "1", image: "/portfolio/1.jpg", alt: "Social Media Graphics" },
+  { title: "2", image: "/portfolio/profilepicture.jpg", alt: "Profile Picture" },
+  { title: "3", image: "/portfolio/2.png", alt: "Logo Design" },
+  { title: "4", image: "/portfolio/3.png", alt: "Thumbnail 1" },
+  { title: "5", image: "/portfolio/4.jpg", alt: "Thumbnail 12" },
+  { title: "6", image: "/portfolio/5.jpg", alt: "Banner Design" },
+  { title: "7", image: "/portfolio/6.png", alt: "3D Reel Thumbnail" },
 ];
 
 const videoProjects = [
